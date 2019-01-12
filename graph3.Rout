@@ -1,0 +1,10 @@
+> png("./UsedCachesInNetwork.png")
+> my_vector=c(10,0)
+> names(my_vector)=c("Ensemble des caches dans le reseau","Caches utilises par la strategie ")
+> barplot(my_vector, main="Utilisation de caches")
+> col=c("deepskyblue","green3")
+> garbage<-dev.off()
+> 
+> proc.time()
+utilisateur     système      écoulé 
+      0.183       0.061       0.364 
